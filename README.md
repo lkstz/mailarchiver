@@ -115,6 +115,7 @@ In addition, you have to pass at least one `mbox` or `rmbox` option.
 - [ ] add releases with binaries
 - [ ] enhance moving logic
 - [ ] enhance fetch logic
+- [ ] add tests
 
 ### Gmail
 
