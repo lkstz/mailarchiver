@@ -1,0 +1,25 @@
+# github.com/ProtonMail/go-imap-id v0.0.0-20180531095342-e05907b730e0
+github.com/ProtonMail/go-imap-id
+# github.com/emersion/go-imap v1.0.0-beta.1
+github.com/emersion/go-imap
+github.com/emersion/go-imap/client
+github.com/emersion/go-imap/responses
+github.com/emersion/go-imap/server
+github.com/emersion/go-imap/utf7
+github.com/emersion/go-imap/commands
+github.com/emersion/go-imap/backend
+# github.com/emersion/go-imap-move v0.0.0-20180601155324-5eb20cb834bf
+github.com/emersion/go-imap-move
+# github.com/emersion/go-sasl v0.0.0-20161116183048-7e096a0a6197
+github.com/emersion/go-sasl
+# golang.org/x/crypto v0.0.0-20190123085648-057139ce5d2b
+golang.org/x/crypto/ssh/terminal
+# golang.org/x/sys v0.0.0-20190124100055-b90733256f2e
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/text v0.3.0
+golang.org/x/text/encoding
+golang.org/x/text/transform
+golang.org/x/text/encoding/internal/identifier
+# gopkg.in/urfave/cli.v1 v1.20.0
+gopkg.in/urfave/cli.v1
