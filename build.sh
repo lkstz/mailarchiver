@@ -28,6 +28,13 @@ git tag v$1
 # Build binaries
 for GOOS in linux windows darwin; do
     for GOARCH in 386 amd64; do
-        go build -v -o ${BUILD_DIR}/${PROGRAM_NAME}-$1-${GOOS}_${GOARCH}
+    	output=${BUILD_DIR}/${PROGRAM_NAME}-$1-${GOOS}_${GOARCH}
+
+		# Add a .exe extension for windows binaries
+    	if [[ ${GOOS} == "windows" ]]; then
+    		output=${output}.exe
+		fi
+
+        go build -v -o ${output}
     done
 done
