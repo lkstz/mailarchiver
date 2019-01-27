@@ -14,4 +14,7 @@
 .glide/
 
 # GoLand IDE
-.idea
+.idea/
+
+# Build dir
+build/

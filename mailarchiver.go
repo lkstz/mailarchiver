@@ -16,6 +16,10 @@ import (
 	"time"
 )
 
+const (
+	version = "0.9.0"
+)
+
 var (
 	app    *cli.App
 	config *configuration
@@ -88,7 +92,7 @@ func main() {
 	app = cli.NewApp()
 	app.Name = "Mailarchiver"
 	app.Usage = "Automatically sort your emails into a year-month folder structure"
-	app.Version = "0.9.0"
+	app.Version = version
 	app.Action = action
 
 	config = &configuration{}
