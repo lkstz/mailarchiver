@@ -35,6 +35,6 @@ for GOOS in linux windows darwin; do
     		output=${output}.exe
 		fi
 
-        go build -v -o ${output}
+        env GOOS=${GOOS} GOARCH=${GOARCH} go build -v -o ${output}
     done
 done
